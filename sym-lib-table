@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "LT3461ES6_TRPBF")(type "KiCad")(uri "${KIPRJMOD}/components/LT3461ES6_TRPBF/LT3461ES6_TRPBF.kicad_sym")(options "")(descr ""))
+  (lib (name "TES_1-0523")(type "KiCad")(uri "${KIPRJMOD}/components/TES_1-0523/TES_1-0523.kicad_sym")(options "")(descr ""))
+  (lib (name "USB4505-03-0-A_REVA")(type "Legacy")(uri "${KIPRJMOD}/components/USB4505-03-0-A_REVA/USB4505-03-0-A_REVA.lib")(options "")(descr ""))
+)

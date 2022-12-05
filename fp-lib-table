@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "LT3461ES6_TRPBF")(type "KiCad")(uri "${KIPRJMOD}/components/LT3461ES6_TRPBF")(options "")(descr ""))
+  (lib (name "TES_1-0523")(type "KiCad")(uri "${KIPRJMOD}/components/TES_1-0523")(options "")(descr ""))
+  (lib (name "USB4505-03-0-A_REVA")(type "KiCad")(uri "${KIPRJMOD}/components/USB4505-03-0-A_REVA")(options "")(descr ""))
+)
