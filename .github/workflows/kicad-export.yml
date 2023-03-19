@@ -1,0 +1,45 @@
+name: KiCad Export
+run-name: KiCad Export 🚀
+on: [push]
+jobs:
+  KiCad-Export:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install KiCad
+        run: |
+          sudo add-apt-repository ppa:kicad/kicad-7.0-releases
+          sudo apt-get install kicad
+          kicad-cli --version
+
+      - name: Check out repository code
+        uses: actions/checkout@v3
+
+      - name: Create output directory
+        run: mkdir output
+
+      - name: Export schematic PDFs
+        run: |
+          mkdir output/schem-pdf
+          for file in *.kicad_sch; do kicad-cli sch export pdf --output output/schem-pdf/$(basename "$file" .kicad_sch).pdf "$file"; done
+
+      - name: Export PCB PDFs
+        run: |
+          mkdir output/pcb-pdf
+          for file in *.kicad_pcb; do kicad-cli pcb export pdf --layers F.Cu,In1.Cu,In2.Cu,B.Cu,B.SilkS,B.SilkS,Edge.Cuts --output output/pcb-pdf/$(basename "$file" .kicad_pcb).pdf "$file"; done
+
+      - name: Export gerbers
+        run: |
+          mkdir output/gerbers
+          kicad-cli pcb export gerbers --board-plot-params *.kicad_pcb --output output/gerbers
+
+      - name: Export STEP
+        run: |
+          mkdir output/step
+          for file in *.kicad_pcb; do kicad-cli pcb export step --subst-models --output output/step/$(basename "$file" .kicad_pcb).stp "$file"; done
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: artifacts
+          path: output
