@@ -2188,7 +2188,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 179.07 146.05 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 12e622ef-54eb-43ef-8074-5bc82c397977)
     (property "Reference" "H2" (at 173.99 146.05 90)
       (effects (font (size 1.27 1.27)))
@@ -2553,7 +2553,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 252.73 146.05 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 30e9c9f2-d2f8-44f2-8bb9-fdba44d38051)
     (property "Reference" "C14" (at 250.19 144.7735 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -2897,7 +2897,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 60.96 187.96 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5085f26e-a5fa-4c01-9ea4-14a550a3e0e3)
     (property "Reference" "M2" (at 63.5 185.4199 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3236,7 +3236,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 71.12 187.96 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 74847ca9-1fb3-4d86-bc89-3e6113eb4f7c)
     (property "Reference" "M3" (at 73.66 185.4199 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3451,7 +3451,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 179.07 81.28 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 88339294-d3ca-41e6-9e4c-ec09f1400861)
     (property "Reference" "H1" (at 173.99 81.28 90)
       (effects (font (size 1.27 1.27)))
@@ -3533,7 +3533,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 330.2 78.74 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 90f42f9a-2e26-4829-936c-d1ae4f7c6885)
     (property "Reference" "JP2" (at 330.2 81.28 0)
       (effects (font (size 1.27 1.27)))
@@ -3924,7 +3924,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 50.8 187.96 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b7fcc030-10eb-4179-bca2-16d7fb2a291e)
     (property "Reference" "M1" (at 53.34 185.4199 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4137,7 +4137,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 330.2 73.66 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid cd2c0b3a-e0e7-4cf8-a5a8-c1bfcda1fff4)
     (property "Reference" "JP1" (at 330.2 71.12 0)
       (effects (font (size 1.27 1.27)))
@@ -4393,7 +4393,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 252.73 88.9 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid dfb64e0c-4819-4d1d-aa95-b0dbcda28db5)
     (property "Reference" "C13" (at 250.19 87.6235 0)
       (effects (font (size 1.27 1.27)) (justify right))
